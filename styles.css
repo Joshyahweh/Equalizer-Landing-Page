@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+  background-image: url(images/bg-main-desktop.png);
+  background-position: 70% 180%;
+  position: relative;
+  cursor: default;
+}
+section {
+  margin: 50px 210px;
+}
+section h1 {
+  font-size: 30px;
+  font-weight: 600;
+}
+.sec1__logo {
+  cursor: pointer;
+}
+.sec1__h1 {
+  margin-top: 130px;
+  font-size: 80px;
+  font-weight: 600;
+  line-height: 95px;
+  color: #191826;
+}
+section p {
+  margin-top: 50px;
+  font-size: 18px;
+  color: #191826;
+}
+.sec1__img {
+  position: relative;
+  left: 90.7%;
+  bottom: 584px;
+}
+.sec2 {
+  background: url(images/bg-pattern-2.svg) no-repeat #191826;
+  height: 600px;
+  position: relative;
+  bottom: 130px;
+  padding: 50px;
+  border-radius: 12px;
+  background-size: auto;
+  background-position: 44.7% -20px;
+}
+.sec2__img {
+  width: 30%;
+  position: absolute;
+  bottom: 250px;
+  left: 100px;
+}
+.sec2__download-container {
+  background: #fa7453 50px;
+  padding: 54px;
+  max-width: fit-content;
+  border-radius: 12px;
+  position: absolute;
+  top: 115px;
+  left: 600px;
+}
+.sec2__premuim {
+  font-size: 50px;
+  color: white;
+  font-weight: 600;
+}
+.sec2_download-content {
+  color: white;
+}
+.sec2__4 {
+  font-size: 80px;
+  color: white;
+  font-weight: 500;
+}
+.sec2__month {
+  color: #fcfaf9;
+  position: absolute;
+  top: 320px;
+  left: 170px;
+}
+.sec2__download-btn {
+  display: flex;
+  align-items: center;
+}
+figure h3 {
+  color: #fcfaf9;
+  font-weight: 500;
+  padding-left: 15px;
+}
+.ios {
+  background-color: #191826;
+  max-width: fit-content;
+  padding: 18px 80px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+.ios:hover {
+  background-color: #66e2dc;
+}
+.andriod {
+  background-color: #fcfaf9;
+  max-width: fit-content;
+  padding: 15px 80px 15px 40px;
+  border-radius: 12px;
+  cursor: pointer;
+  margin-bottom: 50px;
+}
+.andriod:hover {
+  background-color: #ffb964;
+}
+.andriod h3 {
+  color: #191826;
+}
+
+.footer {
+  margin: 50px 210px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer b {
+  font-weight: 600;
+  cursor: pointer;
+}
+.footer a {
+  color: black;
+  text-decoration: none;
+}
+.footer a:hover {
+  text-decoration: underline;
+}
+.socials {
+  word-spacing: 15px;
+  cursor: pointer;
+  /* background-color: black; */
+}
